@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Địa điểm của bạn" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_event"
+            android:title="Dòng thời gian của bạn" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_headset"
+            android:title="Đóng góp của bạn" />
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@drawable/ic_forum"
+            android:title="Bắt đầu lái xe" />
+        <item
+            android:id="@+id/nav_outside"
+            android:icon="@drawable/ic_forum"
+            android:title="Các khu vực ngoại tuyến" />
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:icon="@drawable/ic_dashboard"
+                android:title="Giao thông" />
+            <item
+                android:icon="@drawable/ic_forum"
+                android:title="Phương tiện công cộng" />
+            <item
+                android:icon="@drawable/ic_forum"
+                android:title="Xe đạp" />
+            <item
+                android:icon="@drawable/ic_forum"
+                android:title="Vệ tinh" />
+            <item
+                android:icon="@drawable/ic_forum"
+                android:title="Địa hình" />
+        </menu>
+    </item>
+</menu>
